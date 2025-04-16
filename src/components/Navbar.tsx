@@ -18,7 +18,7 @@ export default function Navbar() {
   <div className="container mx-auto px-4">
     <div className="flex justify-between items-center h-16">
       <Link to="/" className="text-xl font-bold text-gray-800">
-        EcoShop
+        Sooqo
       </Link>
 
       <div className="flex items-center space-x-4">
