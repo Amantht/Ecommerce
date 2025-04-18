@@ -9,6 +9,7 @@ import Orders from './pages/Orders';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import { CartProvider } from './contexts/CartContext';
+import TawkToChat from './chatbot/tawk';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             </Routes>
           </main>
           <Toaster position="bottom-right" />
+          <TawkToChat />
         </div>
       </CartProvider>
     </Router>
